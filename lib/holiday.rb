@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       word.capitalize!
     end
       
-    puts "  " + holi_array.join(" ") + ": " + supply.join(", ")
+    puts "  " + holiday_array.join(" ") + ": " + supply.join(", ")
     end
   end
 end
@@ -80,5 +80,5 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   
   holiday_hash.each do |season, holiday|
-    holiday.each do |holi, supplies|
+    holiday.
 end
